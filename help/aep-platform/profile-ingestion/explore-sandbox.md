@@ -27,7 +27,7 @@ Exchange-Partner erhalten Zugriff auf verschiedene Adobe [!DNL Experience Cloud]
 
 * Der Zugriff auf AEP erfolgt NICHT über die Adobe der Partner [!DNL Experience Cloud] Sandbox-Organisation.
 * Der Zugriff auf AEP erfolgt über eine freigegebene Adobe Exchange-Organisation.
-* Viele andere Adobe Exchange-Partnerunternehmen greifen mit derselben Organisation auf AEP zu
+* Viele andere Partnerunternehmen der Adobe Exchange greifen mit derselben Organisation auf AEP zu
    * Über die AEP-Sandbox-Funktion können Daten und Aktivitäten innerhalb dieser freigegebenen Organisation von den anderen Partnern nicht gesehen oder geändert werden. Jeder Partner hat Zugriff auf eine andere Sandbox in der freigegebenen Organisation.
 * Die Administratorrechte in dieser freigegebenen Organisation sind sehr eingeschränkt.
 * Nachdem Partner Zugriff auf eine Sandbox in AEP erhalten haben, sehen sie oben rechts in der Benutzeroberfläche zwei Org im Org-Umschalter, während sie sich auf der Startseite der Admin Console oder des Haupt-Experience Cloud befinden. Bei der Anmeldung bei AEP sollte jedoch nur die freigegebene Organisation sichtbar sein.
