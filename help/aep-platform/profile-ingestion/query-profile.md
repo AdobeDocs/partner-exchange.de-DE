@@ -11,11 +11,11 @@ ht-degree: 8%
 
 # Zugriff auf das einheitliche Profil mithilfe der Profil-API
 
-Die Adobe [!DNL Experience Platform] kann in Echtzeit auf das Kundenprofil zugreifen; die [[!DNL Experience Platform] Echtzeit-Kundenprofil-API](https://adobe.ly/2TtDHWr) wurde für die Interaktion mit diesem Projekt entwickelt. Siehe dies [Tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) für den Zugriff auf die Echtzeit-Kundenprofildaten mithilfe der Profil-API.
+Die Adobe [!DNL Experience Platform] kann in Echtzeit auf das Kundenprofil zugreifen. Die [[!DNL Experience Platform] Echtzeit-Kundenprofil-API](https://adobe.ly/2TtDHWr) wurde für die Interaktion mit diesem Profil entwickelt. In diesem [Tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) erfahren Sie, wie Sie mithilfe der Profil-API auf die Echtzeit-Kundenprofildaten zugreifen.
 
 Dieser Artikel verweist im Wesentlichen auf das oben verlinkte Tutorial.
 
-Die [Postman-Sammlung](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) wird im gesamten Artikel mit den zugehörigen Aufrufen nach Anzahl referenziert. Weitere Informationen zur Installation und Verwendung der Postman-Sammlung finden Sie auf Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) Seite. Es gibt auch Beispieldatensätze von [Treue](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) und [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) Daten.
+Die [Postman-Sammlung](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) wird im gesamten Artikel unter Verwendung der zugehörigen Aufrufe nach Anzahl referenziert. Weitere Informationen zur Installation und Verwendung der Postman-Sammlung finden Sie auf der Github-Seite [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) . Es gibt auch Beispieldatensätze für [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) - und [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) -Daten.
 
 Verwenden Sie für diesen Abschnitt den Ordner Postman 5: Profile Lookup, 5a: Real-time lookup PROFILE data ODER 5b: Real-time lookup EVENT data.
 
@@ -25,11 +25,11 @@ Die folgenden Abschnitte helfen Ihnen bei der Authentifizierung bei Experience P
 
 ### Authentifizieren bei [!DNL Platform]
 
-Siehe [this](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html) Authentifizierungs-Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
+Lesen Sie [dieses](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html) Authentifizierungs-Tutorial , bevor Sie einen der folgenden Aufrufe durchführen.
 
 ### API-Pfad
 
-Die Plattform-Gateway-URL, die für die Echtzeit-Kundenprofil-API benötigt wird, lautet: `https://platform.adobe.io/`
+Die für die Echtzeit-Kundenprofil-API benötigte Plattform-Gateway-URL lautet: `https://platform.adobe.io/`
 
 Der Basispfad für die API lautet: `/data/core/ups/access/entities`
 
@@ -49,7 +49,7 @@ Weitere Informationen zur Kopfzeile finden Sie im [Tutorial](https://adobe.ly/2P
 
 ## Zugriff auf Echtzeit-Kundenprofile mithilfe von Identitäten
 
-Die Profil-API ermöglicht den Zugriff auf Profile mithilfe von Identitäten über eine GET-Anfrage. Die folgenden Abschnitte folgen diesem [Handbuch](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
+Die Profil-API ermöglicht den Zugriff auf Profile mithilfe von Identitäten über eine GET-Anfrage. Die folgenden Abschnitte folgen diesem [Leitfaden](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
 
 ### Profildaten mithilfe der Identität aufrufen
 
@@ -141,7 +141,8 @@ Antwort:
 
 Die API ermöglicht den Zugriff auf Profile mithilfe einer Identitätsliste, indem sie eine POST-Anfrage an den Endpunkt /access/entity sendet und die Identitäten in der Payload angibt. Diese Identitäten bestehen aus einem ID-Wert (entityId) und einem Identitäts-Namespace (entityIdNS).
 
-Anfrage: Mit der folgenden Anfrage werden die Namen und E-Mail-Adressen mehrerer Kunden anhand einer Liste von Identitäten abgerufen:
+Anfrage:
+Mit der folgenden Anfrage werden die Namen und E-Mail-Adressen mehrerer Kunden anhand einer Liste von Identitäten abgerufen:
 
 ```
 curl -X POST \
@@ -179,7 +180,8 @@ curl -X POST \
 }'
 ```
 
-Antwort: Eine erfolgreiche Antwort gibt die angeforderten Felder von Entitäten zurück, die im Anfrageinhalt angegeben sind.
+Respose:
+Eine erfolgreiche Antwort gibt die angeforderten Felder von Entitäten zurück, die im Anfrageinhalt angegeben sind.
 
 ```
 {
@@ -326,7 +328,8 @@ Partner können auf Zeitreihenereignisse anhand der Identität der zugehörigen 
 
 Auf Zeitreihenereignisse kann über die Identität der zugehörigen Profilentität zugegriffen werden, indem eine GET-Anfrage an den Endpunkt /access/entity gestellt wird. Diese Identität besteht aus einem ID-Wert (entityId) und einem Identitäts-Namespace (entityIdNS).
 
-Anfrage: Die folgende Anfrage sucht nach einer Profilentität anhand der Kennung und ruft die Werte für die Eigenschaften endUserIDs, web und channel ab. **für alle** Zeitreihenereignisse, die mit der Entität verknüpft sind.
+Anfrage:
+Die folgende Anfrage sucht nach einer Profilentität anhand der Kennung und ruft die Werte für die Eigenschaften endUserIDs, web und channel **für alle mit der Entität verknüpften** Zeitreihenereignisse ab.
 
 ```
 curl -X GET \
@@ -460,5 +463,5 @@ Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispi
 ## Referenzartikel
 
 * [Echtzeit-Kundenprofil-API](https://adobe.ly/2TtDHWr)
-* [Zugriff auf Echtzeit-Kundenprofildaten mithilfe des Profil-API-Tutorials](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
+* [Zugreifen auf Echtzeit-Kundenprofildaten mithilfe des Profil-API-Tutorials](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
 * [[!DNL Experience Platform] Authentifizierungshandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)

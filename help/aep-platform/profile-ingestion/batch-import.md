@@ -5,13 +5,13 @@ exl-id: 50576b67-b3ba-498e-86f6-7e1986b76985
 source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # Importieren von Batch-Daten in AEP
 
-AEP kann Batch-Dateien erfassen, die Profildaten aus einer reduzierten Datei (z. B. Parquet) oder Daten enthalten, die einem bekannten Schema im [!UICONTROL Experience-Datenmodell] (XDM)-Registrierung.
+AEP kann Batch-Dateien erfassen, die Profildaten aus einer reduzierten Datei (z. B. Parquet) oder Daten enthalten, die einem bekannten Schema in der Registry [!UICONTROL Experience-Datenmodell] (XDM) entsprechen.
 
 AEP kann Daten mithilfe von Batch-Dateien erfassen. Die folgenden Formate werden akzeptiert: JSON, Parquet und CSV.
 
@@ -23,7 +23,7 @@ Dieser Artikel behandelt Folgendes:
 * Fertigstellen eines Batches
 * Überprüfen des Status eines Batches
 
-Die [Postman-Sammlung](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) wird im gesamten Artikel mit den zugehörigen Aufrufen nach Anzahl referenziert. Weitere Informationen zur Installation und Verwendung der Postman-Sammlung finden Sie auf Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) Seite. Es gibt auch Beispieldatensätze von [Treue](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) und [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) Daten.
+Die [Postman-Sammlung](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) wird im gesamten Artikel unter Verwendung der zugehörigen Aufrufe nach Anzahl referenziert. Weitere Informationen zur Installation und Verwendung der Postman-Sammlung finden Sie auf der Github-Seite [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) . Es gibt auch Beispieldatensätze für [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) - und [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) -Daten.
 
 Verwenden Sie für alle Aufrufe in diesem Tutorial Postman-Aufrufordner: 4: Batch-Import, 4a: Batch-Import für PROFILE-Daten ODER 4b: Batch-Import für EREIGNISdaten.
 
@@ -31,20 +31,20 @@ Verwenden Sie für alle Aufrufe in diesem Tutorial Postman-Aufrufordner: 4: Batc
 
 * Definieren Sie ein Schema und erstellen Sie einen Datensatz.
 * Die Daten müssen in JSON, Parquet oder CSV formatiert sein.
-* [Auf der Plattform authentifizieren](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/home.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* [Authentifizieren Sie sich bei der Plattform](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/home.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 * Erfassen Sie die Werte für erforderliche Kopfzeilen im oben verknüpften Authentifizierungs-Tutorial.
 
 ## Best Practices und Einschränkungen bei der Batch-Erfassung
 
 * Maximale Batch-Größe: 100 GB
 * Maximale Anzahl von Dateien pro Batch: 1.500
-* Wenn eine Datei größer als 512 MB ist, muss sie in kleinere Abschnitte unterteilt werden. Weitere Informationen finden Sie im [Entwicklerhandbuch](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
+* Wenn eine Datei größer als 512 MB ist, muss sie in kleinere Abschnitte unterteilt werden. Weitere Informationen finden Sie im [Entwicklerhandbuch](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md) .
 * Maximale Anzahl von Eigenschaften oder Feldern pro Zeile: 10.000
 * Maximale Anzahl der Batches pro Minute und Anwender: 138
 
 ## Erstellen eines Batches
 
-In diesem Tutorial verwenden wir JSON als Format. Weitere Formatbeispiele finden Sie im Abschnitt [Entwicklerhandbuch](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
+In diesem Tutorial verwenden wir JSON als Format. Weitere Formatbeispiele finden Sie im [Entwicklerhandbuch](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md) .
 Erstellen Sie einen Batch mit JSON als Eingabeformat (stellen Sie sicher, dass Sie eine Datensatz-ID einschließen und dass Ihre Daten dem mit dem Datensatz verknüpften XDM-Schema entsprechen):
 
 ```json
@@ -130,7 +130,7 @@ Antwort:
 
 Der Batch-Status kann in der Benutzeroberfläche oder über die API überprüft werden (siehe Aufruf unten). Um die Benutzeroberfläche einzuchecken, navigieren Sie zum DataSet , um den Status anzuzeigen.
 
-Die verschiedenen Status der Batch-Erfassung finden Sie [here](https://adobe.ly/2TMMCmj).
+Die verschiedenen Status der Batch-Erfassung finden Sie [hier](https://adobe.ly/2TMMCmj).
 
 
 ```json
@@ -234,8 +234,8 @@ Antwort:
 ## Referenzartikel
 
 * [Data Ingestion-API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
-* [Batch-Erfassung - Übersicht](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
+* [Batch-Erfassung - Überblick](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
 * [Entwicklerhandbuch zur Batch-Erfassung](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
 * [Handbuch zur Fehlerbehebung bei der Batch-Erfassung](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
-* [Datenerfassung in Postman](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
+* [Datenerfassung durch Postman](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
 * [Authentifizierungs-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/home.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)
