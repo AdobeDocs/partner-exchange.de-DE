@@ -9,7 +9,8 @@ ht-degree: 66%
 
 ## Unser Versprechen
 
-Um eine offene und einladende Umgebung zu fördern, verpflichten wir uns als Mitwirkende und Betreuer, die Teilnahme an unserem Projekt und unserer Community zu einem belästigungsfreien Erlebnis für alle zu machen, unabhängig von Alter, Körpergröße, Behinderung, ethnischer Zugehörigkeit, Geschlechtsidentität und -ausdruck, Erfahrungsniveau, Nationalität, persönlichem Erscheinungsbild, Rasse, Religion oder sexueller Identität und Orientierung.
+Im Interesse der Förderung einer offenen und einladenden Umgebung verpflichten wir uns als Beitragende und Verantwortliche, die Teilnahme an unserem Projekt und in unserer Community zu einem Erlebnis ohne Belästigung für alle, unabhängig von Alter und Körper, zu machen
+Größe, Behinderung, ethnische Zugehörigkeit, Geschlechtsidentität und Ausdruck, Erfahrungsniveau, Nationalität, persönliches Auftreten, Rasse, Religion oder sexuelle Identität und Orientierung.
 
 ## Unsere Standards
 
@@ -33,7 +34,8 @@ Beispiele für inakzeptables Verhalten:
 
 Projektverantwortliche sind dafür verantwortlich, die Standards für akzeptables Verhalten zu verdeutlichen. Es wird erwartet, dass sie als Reaktion auf alle Vorfälle von unangemessenem Verhalten geeignete und faire Korrekturmaßnahmen ergreifen.
 
-Projektverantwortliche haben das Recht und die Verantwortung, Kommentare, Commits, Code, Wiki-Bearbeitungen, Probleme und andere Beiträge zu entfernen, zu bearbeiten oder abzulehnen, die nicht mit diesem Verhaltenskodex in Einklang stehen, oder Beitragende vorübergehend oder dauerhaft für andere Verhaltensweisen zu sperren, die sie für unangemessen, bedrohlich, beleidigend oder schädlich halten.
+Projektverantwortliche haben das Recht und die Verantwortung, Kommentare, Commits, Code, Wiki-Änderungen, Probleme und andere Beiträge, die nicht mit diesem Verhaltenskodex übereinstimmen, zu entfernen, zu bearbeiten oder abzulehnen oder vorübergehend zu verbieten oder
+dauerhaft alle Mitwirkenden für andere Verhaltensweisen, die sie als unangemessen, bedrohlich, beleidigend oder schädlich erachten.
 
 ## Anwendungsbereich
 
@@ -41,7 +43,7 @@ Dieser Verhaltenskodex findet innerhalb von Projektbereichen und in öffentliche
 
 ## Durchsetzung
 
-Fälle von missbräuchlichem, belästigendem oder anderweitig inakzeptablem Verhalten können dem Projektteam unter `Grp-opensourceoffice@adobe.com`. Alle Beschwerden werden geprüft und untersucht und führen zu einer Antwort, die für notwendig und den Umständen angemessen erachtet wird. Das Projektteam ist verpflichtet, die Identität der Person, die ein Vorkommnis meldet, vertraulich zu behandeln. Weitere Details zu spezifischen Durchsetzungsrichtlinien können separat veröffentlicht werden.
+Beleidigendes, belästigendes oder anderweitig inakzeptables Verhalten kann dem Projektteam unter `Grp-opensourceoffice@adobe.com` gemeldet werden. Alle Beschwerden werden geprüft und untersucht und führen zu einer Reaktion, die für notwendig und den Umständen angemessen erachtet wird. Das Projektteam ist verpflichtet, die Identität der Person, die ein Vorkommnis meldet, vertraulich zu behandeln. Weitere Details zu spezifischen Durchsetzungsrichtlinien können separat veröffentlicht werden.
 
 Gegen Projektverantwortliche, die den Verhaltenskodex nicht nach Treu und Glauben befolgen oder durchsetzen, können vorübergehende oder dauerhafte Sanktionen verhängt werden, die von anderen Mitgliedern der Projektleitung festgelegt werden.
 

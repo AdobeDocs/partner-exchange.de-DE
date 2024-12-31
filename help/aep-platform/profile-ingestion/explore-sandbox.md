@@ -1,6 +1,6 @@
 ---
 title: Aufrufen und Erkunden der AEP-Sandbox
-description: Erfahren Sie, wie Sie auf die Experience Platform-Sandbox zugreifen und sie durchsuchen können.
+description: Erfahren Sie, wie Sie auf die Experience Platform-Sandbox zugreifen und sie erkunden können.
 exl-id: 62c21615-4b03-4900-a1ad-8f809c836491
 source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
 workflow-type: tm+mt
@@ -15,71 +15,71 @@ Dieser Artikel behandelt Folgendes:
 
 * Die Unterschiede zwischen einer bestehenden Adobe Exchange Partner-Sandbox-Organisation und der freigegebenen AEP-Sandbox.
 * Anfordern des Zugriffs auf die freigegebene AEP-Sandbox.
-* Erhalt einer E-Mail-Einladung zur freigegebenen AEP-Sandbox.
-* Einladen neuer Benutzer in die [!DNL Admin Console].
+* Erhalten einer E-Mail-Einladung zur freigegebenen AEP-Sandbox.
+* Neue Benutzer in die [!DNL Admin Console] einladen.
 * Navigieren in der AEP-Benutzeroberfläche.
 
 Einen allgemeinen Überblick über die Sandbox-Technologie in AEP finden Sie in diesem [Artikel](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/home.html).
 
 ## Die freigegebene AEP-Sandbox
 
-Exchange-Partner erhalten Zugriff auf verschiedene Adobe [!DNL Experience Cloud]-Produkte (Nicht-AEP-Produkte wie [!DNL Analytics], [!DNL Target], Platform-Tags usw.) über ihre eigene Adobe [!DNL Experience Cloud]-Org (nicht freigegeben). Partner erhalten Systemadministratorzugriffsrechte auf ihre eigene Organisation, um Benutzer und andere Berechtigungen zu verwalten. Adobe [!DNL Experience Platform] (AEP) wird anders behandelt als andere Adobe-Sandboxes. Hier sind die wichtigsten Unterschiede:
+Exchange-Partner erhalten Zugriff auf verschiedene Adobe-[!DNL Experience Cloud]-Produkte (Nicht-AEP-Produkte wie [!DNL Analytics], [!DNL Target], Platform-Tags usw.) über ihre eigene Adobe-[!DNL Experience Cloud]-Organisation (nicht freigegeben). Partner erhalten Systemadministrator-Zugriffsrechte für ihre eigene Organisation, um Benutzer und andere Berechtigungen zu verwalten. Adobe [!DNL Experience Platform] (AEP) wird anders behandelt als andere Adobe-Sandboxes. Im Folgenden finden Sie die wichtigsten Unterschiede:
 
-* Der Zugriff auf AEP erfolgt NICHT über die Adobe [!DNL Experience Cloud] -Sandbox-Hauptorganisation der Partner.
+* Der Zugriff auf AEP erfolgt NICHT über die Partner-Haupt-Adobe [!DNL Experience Cloud] Sandbox-Organisation.
 * Der Zugriff auf AEP erfolgt über eine freigegebene Adobe Exchange-Organisation.
-* Viele andere Partnerunternehmen der Adobe Exchange greifen mit derselben Organisation auf AEP zu
-   * Über die AEP-Sandbox-Funktion können Daten und Aktivitäten innerhalb dieser freigegebenen Organisation von den anderen Partnern nicht gesehen oder geändert werden. Jeder Partner hat Zugriff auf eine andere Sandbox in der freigegebenen Organisation.
-* Die Administratorrechte in dieser freigegebenen Organisation sind sehr eingeschränkt.
-* Nachdem Partner Zugriff auf eine Sandbox in AEP erhalten haben, sehen sie oben rechts in der Benutzeroberfläche zwei Org im Org-Umschalter, während sie sich auf der Startseite der Admin Console oder des Haupt-Experience Cloud befinden. Bei der Anmeldung bei AEP sollte jedoch nur die freigegebene Organisation sichtbar sein.
+* Viele andere Adobe Exchange-Partnerunternehmen greifen über dieselbe Organisation auf AEP zu
+   * Über die AEP-Sandbox-Funktion können Daten und Aktivitäten innerhalb dieser freigegebenen Organisation von den anderen Partnern nicht angezeigt oder geändert werden. Jeder Partner hat Zugriff auf eine andere Sandbox innerhalb der freigegebenen Organisation.
+* Die Administratorrechte innerhalb dieser freigegebenen Organisation sind sehr begrenzt.
+* Nachdem Partnern Zugriff auf eine Sandbox auf AEP gewährt wurde, sehen sie zwei Organisationen im Organisations-Umschalter oben rechts in der Benutzeroberfläche, während sie sich auf der Startseite der Admin Console oder der Haupt-Experience Cloud befinden. Bei der Anmeldung bei AEP sollte jedoch nur die freigegebene Organisation sichtbar sein.
 
 ## Anfordern des Zugriffs auf die freigegebene AEP-Sandbox
 
-Senden Sie eine [Supportanfrage](https://adobeexchangeec.zendesk.com/hc/de-de/requests/new) mit den folgenden Informationen:
+Senden Sie [Support-Anfrage](https://adobeexchangeec.zendesk.com/hc/de-de/requests/new) mit den folgenden Informationen:
 
 * E-Mail-Adresse
-* Betrifft: AEP-Sandbox-Anfrage
+* Betreff: AEP-Sandbox-Anfrage
 * Produkt: Allgemeine Bereitstellung/Sandbox
-* Tickettyp: Programm-Support - Fragen zu Exchange-Programm/Provisioning-Anfragen
-* Beschreibung: Geben Sie eine kurze Beschreibung der Anwendungsfälle für die Integration, die die Verwendung einer AEP-Sandbox erfordern.
-* Stellen Sie sicher, dass Sie auch alle Benutzernamen und E-Mails angeben, die zur AEP-Sandbox hinzugefügt werden sollen. Es ist möglich, dass zusätzliche Benutzer hinzugefügt werden, nachdem die Anfrage gestellt wurde, aber die Benutzer müssen von Adobe über ein zusätzliches Ticket hinzugefügt werden (siehe unten).
+* Ticket-Typ: Programm-Support - Fragen zum Exchange-Programm/zur Bereitstellung
+* Beschreibung: Geben Sie eine kurze Beschreibung des Anwendungsfalls/der Anwendungsfälle der Integration an, für den/die die Verwendung einer AEP-Sandbox erforderlich ist/sind
+* Stellen Sie sicher, dass Sie auch alle Benutzernamen und E-Mails angeben, die der AEP-Sandbox hinzugefügt werden sollen. Es ist möglich, dass zusätzliche Benutzer hinzugefügt werden, nachdem die Anfrage gestellt wurde. Die Benutzer müssen jedoch per Adobe über ein zusätzliches Ticket hinzugefügt werden (siehe unten).
 
-## E-Mail-Einladung erhalten
+## E-Mail-Einladung empfangen
 
-Der Hauptkontakt, der die AEP-Sandbox angefordert hat, erhält eine automatische E-Mail, in der er zum &quot;Erste Schritte&quot;mit der Adobe [!DNL Experience Platform] eingeladen wird. Der Hauptkontakt verfügt außerdem über einige Administratorberechtigungen, die im nächsten Abschnitt behandelt werden.
+Der primäre Kontakt, der die AEP-Sandbox angefordert hat, erhält eine automatisierte E-Mail, in der er zur „ersten Schritte“ mit dem Adobe-[!DNL Experience Platform] eingeladen wird. Der primäre Kontakt verfügt auch über einige Administratorrechte, die im nächsten Abschnitt behandelt werden.
 
-Statt in der E-Mail die Schaltfläche &quot;Erste Schritte&quot;auszuwählen, navigieren Sie direkt zu `https://platform.adobe.com.` Anmelden mit der Adobe ID, die der E-Mail-Adresse in der Einladung zugeordnet ist, oder erstellen Sie eine, wenn sie keiner Adobe ID zugeordnet ist.
+Anstatt die Schaltfläche „Erste Schritte“ in der E-Mail auszuwählen, navigieren Sie direkt zu `https://platform.adobe.com.` Anmelden bei der Adobe ID, die mit der E-Mail-Adresse in der Einladung verknüpft ist, oder erstellen Sie eine, wenn sie nicht mit einer Adobe ID verknüpft ist.
 
 ## Zusätzliche Benutzer einladen
 
-Senden Sie eine [Supportanfrage](https://adobeexchangeec.zendesk.com/hc/de-de/requests/new) mit den folgenden Informationen:
+Senden Sie [Support-Anfrage](https://adobeexchangeec.zendesk.com/hc/de-de/requests/new) mit den folgenden Informationen:
 
-* E-Mail-Adresse des Anforderers
-* Betrifft: AEP-Sandbox - Admin/Benutzer hinzufügen
+* E-Mail-Adresse des Antragstellers
+* Betreff: AEP-Sandbox - Administrator/Benutzer hinzufügen
 * Produkt: Allgemeine Bereitstellung/Sandbox
-* Tickettyp: Programm-Support - Fragen zu Exchange-Programm/Provisioning-Anfragen
+* Ticket-Typ: Programm-Support - Fragen zum Exchange-Programm/zur Bereitstellung
 * Beschreibung: Liste der hinzuzufügenden Benutzer (Namen und E-Mails)
 
 ## Navigieren in der AEP-Benutzeroberfläche
 
-Video über die AEP-Benutzeroberfläche [Einführung](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+Sehen Sie sich das Einführungsvideo zur AEP[Benutzeroberfläche ](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
 
-Es gibt 12 Hauptbereiche in der AEP-Benutzeroberfläche, die über das linke Bedienfeld navigiert werden können. Die wichtigsten Abschnitte für diese Art der Integration sind jedoch Schemas, Datensätze und Profile.
+Es gibt 12 primäre Bereiche in der AEP-Benutzeroberfläche, die über das linke Bedienfeld navigiert werden können. Die wichtigsten Abschnitte für diesen Integrationstyp sind jedoch Schemata, Datensätze und Profile.
 
-* Startseite - Landingpage
+* Startseite - der Startbildschirm
 
-   * Hier werden einige erste Schritte vorgeschlagen
+   * Schreibt einige erste Aktivitäten vor
    * Enthält einige Links zu Lerninhalten
-   * Bietet eine Dashboard-Ansicht für einige der wichtigsten AEP-Objekte wie Schemas, DataSets und Profile
+   * Ermöglicht eine Dashboard-Ansicht für einige der wichtigsten AEP-Objekte, z. B. Schemata, Datensätze und Profile
 
-* Workflows - Einführung in gemeinsame Workflows für die Datenübernahme in AEP
+* Workflows - Starten in allgemeine Workflows zum Übertragen von Daten in AEP
 * Verbindungen/Quellen - Verwalten von Datenquellen, die in AEP eingehen
-* Verbindungen/Ziele - Verwalten von Verbindungen zum Senden von Daten an externe Systeme
-* Profile - Anzeigen und Verwalten einzelner Kundenprofile
-* Segmente - Kundensegmente durchsuchen, erstellen und ändern
-* Identitäten - Suchen, Erstellen und Ändern von Identitäts-Namespaces. Hierbei handelt es sich um die Typen von primären IDs, die zur eindeutigen Identifizierung eines Kunden verwendet werden
-* Modelle (Datenwissenschaft) - Teilnahme an Data Science-Aktivitäten, einschließlich der Verwendung einer eingebetteten Jupyter Notebooks-Umgebung
-* Dienste (Data Science) - Veröffentlichen von Datenwissenschaftsrezepten als Dienste
-* Schemata - Schemata durchsuchen, erstellen und ändern; dies sind die detaillierten Datendefinitionen, die verwendet werden, um die Organisation der Daten zu gewährleisten
-* DataSets - Durchsuchen, Erstellen und Verwalten von DataSets; ein DataSet wird durch ein Schema definiert und befindet sich dort, wo sich Daten in AEP befinden
-* Abfragen - Durchsuchen, Erstellen, Ändern und Verwenden eines Repositorys von Abfragen, um Einblicke aus den Daten in DataSets zu gewinnen.
-* Überwachung - Anzeigen des Status aller Daten, die sowohl für Batch als auch für Streaming in und aus AEP verschoben werden
+* Verbindungen/Ziele - Verbindungen verwalten, um Daten an externe Systeme zu senden
+* Profile : Anzeigen und Verwalten einzelner Kundenprofile
+* Segmente : Durchsuchen, Erstellen und Ändern von Kundensegmenten
+* Identitäten - Durchsuchen, Erstellen und Ändern von Identity-Namespaces. Dies sind die Typen von primären IDs, die zur eindeutigen Identifizierung eines Kunden verwendet werden
+* Modelle (Datenwissenschaft) - Betreiben Sie datenwissenschaftliche Aktivitäten, einschließlich der Verwendung einer eingebetteten Jupyter-Notebook-Umgebung
+* Services (Datenwissenschaft) - Veröffentlichen von Datenwissenschaftsrezepten als Services
+* Schemata : Durchsuchen, Erstellen und Ändern von Schemata. Dies sind die detaillierten Datendefinitionen, die zum Organisieren von Daten verwendet werden
+* Datensätze : Durchsuchen, Erstellen und Verwalten von Datensätzen; ein Datensatz wird durch ein Schema definiert und ist der Ort, an dem sich Daten in AEP befinden
+* Abfragen : Durchsuchen, Erstellen, Ändern und Verwenden eines Repositorys von Abfragen, um Einblicke aus den Daten in Datensätzen zu erhalten
+* Monitoring : Zeigt den Status aller Daten an, die in AEP ein- und ausgelagert werden, sowohl für Batch als auch für Streaming.
