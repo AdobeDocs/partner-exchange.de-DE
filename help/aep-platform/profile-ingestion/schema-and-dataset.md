@@ -21,11 +21,11 @@ Weitere Informationen finden [ in ](https://www.adobe.io/apis/experienceplatform
 
 ### Erstellen eines Schemas
 
-Partner können ein Schema mithilfe der Benutzeroberfläche erstellen, indem sie diesem [ folgen](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html). In diesem Beispiel wird das Profilschema des Treueprogramms verwendet. Während das Beispiel ein Profilschema ist, können ereignisbasierte Schemata mit einem ähnlichen Prozess verwendet werden.
+Partner können ein Schema mithilfe der Benutzeroberfläche erstellen, indem sie diesem [ folgen](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/tutorials/create-schema-ui.html). In diesem Beispiel wird das Profilschema des Treueprogramms verwendet. Während das Beispiel ein Profilschema ist, können ereignisbasierte Schemata mit einem ähnlichen Prozess verwendet werden.
 
 Um die APIs verwenden zu können, müssen Partner über eine vorhandene Adobe I/O-Integration mit aktivierten [!DNL Experience Platform] verfügen. Weitere Informationen finden Sie in diesem Handbuch [Erstellen einer I/O-Integration](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/home.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
-Unter [diesem Link](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-api.html) erfahren Sie, wie Sie Schemas mithilfe der API erstellen.
+Unter [diesem Link](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/tutorials/create-schema-api.html) erfahren Sie, wie Sie Schemas mithilfe der API erstellen.
 
 Um ein Schema über Postman zu erstellen, verwenden Sie die Aufrufe in den Ordnern 1: Schema erstellen, 1a: Schema für PROFILDATEN erstellen ODER 1b: Schema für EREIGNISDATEN erstellen.
 
@@ -35,7 +35,7 @@ Alle Daten, die in Adobe [!DNL Experience Platform] importiert werden, sind in D
 
 Catalog Service ist ein Aufzeichnungssystem für den Speicherort und die Herkunft von Daten in [!DNL Experience Platform] und wird zum Erstellen und Verwalten von Datensätzen verwendet. Der Katalog verfolgt die Metadaten für jeden Datensatz. Darin enthalten ist ein Verweis auf das Schema des Experience-Datenmodells (XDM), dem der Datensatz entspricht (im nächsten Abschnitt erläutert), und die Anzahl der in diesen Datensatz aufgenommenen Datensätze.
 
-Eine [ Datensatzübersicht ](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/overview.html) Sie hier.
+Eine [ Datensatzübersicht ](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/datasets/overview.html) Sie hier.
 
 ### Erstellen eines Datensatzes
 
@@ -53,9 +53,9 @@ Erstellen eines Datensatzes über die Benutzeroberfläche:
 
 1. Klicken Sie auf **[!UICONTROL Fertigstellen]**.
 
-[ Sie ](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/user-guide.html) Datensatz-Benutzerhandbuch.
+[ Sie ](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/datasets/user-guide.html) Datensatz-Benutzerhandbuch.
 
-[Erstellen eines Datensatzes mithilfe der APIs](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/create.html).
+[Erstellen eines Datensatzes mithilfe der APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/datasets/create.html).
 
 Um einen Datensatz über Postman zu erstellen, verwenden Sie die Ordner 2: Datensatz erstellen, 2a: Datensatz für PROFILDATEN ERSTELLEN ODER 2b: Datensatz für EREIGNISDATEN ERSTELLEN.
 

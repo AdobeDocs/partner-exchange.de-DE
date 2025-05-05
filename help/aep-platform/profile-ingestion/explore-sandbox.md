@@ -61,7 +61,7 @@ Senden Sie [Support-Anfrage](https://adobeexchangeec.zendesk.com/hc/de-de/reques
 
 ## Navigieren in der AEP-Benutzeroberfläche
 
-Sehen Sie sich das Einführungsvideo zur AEP[Benutzeroberfläche ](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+Sehen Sie sich das Einführungsvideo zur AEP[Benutzeroberfläche ](https://docs.adobe.com/content/help/de-DE/platform-learn/tutorials/intro-to-platform/interface-tour.html)
 
 Es gibt 12 primäre Bereiche in der AEP-Benutzeroberfläche, die über das linke Bedienfeld navigiert werden können. Die wichtigsten Abschnitte für diesen Integrationstyp sind jedoch Schemata, Datensätze und Profile.
 
