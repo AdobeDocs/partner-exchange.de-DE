@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Partner sollten dieses Integrationshandbuch verwenden, um sie beim Aufbau der Eingangs- und Ausgangsfunktion mit dem Adobe-[!DNL Experience Platform] (AEP) zu unterstützen. Es gibt APIs für die Batch-Aufnahme, Streaming-Aufnahme und einheitlichen Profilzugriff (Ausgang).
 
-Um Sie bei der Entwicklung zu unterstützen, ](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) das Adobe Exchange-Team eine [Postman-Sammlung erstellt. Diese Postman-Sammlung wird im gesamten Integrationshandbuch referenziert.
+Um Sie bei der Entwicklung zu unterstützen, [&#128279;](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) das Adobe Exchange-Team eine Postman-Sammlung erstellt. Diese Postman-Sammlung wird im gesamten Integrationshandbuch referenziert.
 
 Weitere Informationen zur Installation und Verwendung der Postman-Sammlung finden Sie auf der GitHub-Seite [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md). Es gibt auch Beispieldatensätze mit [Treueprogramm](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json)- und [Profil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json)Daten.
 
