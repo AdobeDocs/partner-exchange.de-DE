@@ -17,11 +17,11 @@ Die [Postman-](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-int
 
 Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat repräsentiert und überprüft. Schemata bieten eine übergeordnete abstrakte Definition eines realen Objekts (z. B. einer Person) und bestimmen, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum). Schemata können in der Benutzeroberfläche oder mithilfe der [!DNL Experience Platform]-APIs erstellt werden.
 
-Weitere Informationen finden [ in ](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_composition/schema_composition.md) Dokumentation .
+Weitere Informationen finden [&#x200B; in &#x200B;](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_composition/schema_composition.md) Dokumentation .
 
 ### Erstellen eines Schemas
 
-Partner können ein Schema mithilfe der Benutzeroberfläche erstellen, indem sie diesem [ folgen](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/tutorials/create-schema-ui.html). In diesem Beispiel wird das Profilschema des Treueprogramms verwendet. Während das Beispiel ein Profilschema ist, können ereignisbasierte Schemata mit einem ähnlichen Prozess verwendet werden.
+Partner können ein Schema mithilfe der Benutzeroberfläche erstellen, indem sie diesem [&#x200B; folgen](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/tutorials/create-schema-ui.html). In diesem Beispiel wird das Profilschema des Treueprogramms verwendet. Während das Beispiel ein Profilschema ist, können ereignisbasierte Schemata mit einem ähnlichen Prozess verwendet werden.
 
 Um die APIs verwenden zu können, müssen Partner über eine vorhandene Adobe I/O-Integration mit aktivierten [!DNL Experience Platform] verfügen. Weitere Informationen finden Sie in diesem Handbuch [Erstellen einer I/O-Integration](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/home.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
@@ -35,7 +35,7 @@ Alle Daten, die in Adobe [!DNL Experience Platform] importiert werden, sind in D
 
 Catalog Service ist ein Aufzeichnungssystem für den Speicherort und die Herkunft von Daten in [!DNL Experience Platform] und wird zum Erstellen und Verwalten von Datensätzen verwendet. Der Katalog verfolgt die Metadaten für jeden Datensatz. Darin enthalten ist ein Verweis auf das Schema des Experience-Datenmodells (XDM), dem der Datensatz entspricht (im nächsten Abschnitt erläutert), und die Anzahl der in diesen Datensatz aufgenommenen Datensätze.
 
-Eine [ Datensatzübersicht ](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/datasets/overview.html) Sie hier.
+Eine [&#x200B; Datensatzübersicht &#x200B;](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/datasets/overview.html) Sie hier.
 
 ### Erstellen eines Datensatzes
 
@@ -53,7 +53,7 @@ Erstellen eines Datensatzes über die Benutzeroberfläche:
 
 1. Klicken Sie auf **[!UICONTROL Fertigstellen]**.
 
-[ Sie ](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/datasets/user-guide.html) Datensatz-Benutzerhandbuch.
+[&#x200B; Sie &#x200B;](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/datasets/user-guide.html) Datensatz-Benutzerhandbuch.
 
 [Erstellen eines Datensatzes mithilfe der APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/catalog/datasets/create.html).
 

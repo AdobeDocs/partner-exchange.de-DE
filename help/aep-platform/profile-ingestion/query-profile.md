@@ -25,7 +25,7 @@ Die folgenden Abschnitte helfen Ihnen bei der Authentifizierung beim Experience 
 
 ### Authentifizieren bei [!DNL Platform]
 
-Lesen Sie [ Authentifizierungs](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
+Lesen Sie [&#x200B; Authentifizierungs](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
 
 ### API-Pfad
 

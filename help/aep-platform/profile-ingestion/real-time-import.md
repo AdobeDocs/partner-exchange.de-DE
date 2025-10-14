@@ -73,7 +73,7 @@ Denken Sie daran, die in der obigen Antwort angegebene ID für zukünftige Strea
 
 Verwenden Sie für diesen Abschnitt Postman-Aufrufordner: 3: Echtzeit-Import, 3a: Echtzeit-Import für Profildaten.
 
-Detaillierte JSON-Anfragen mit Antworten für Streaming-Profildaten sind ([) ](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/streaming-record-data.html).
+Detaillierte JSON-Anfragen mit Antworten für Streaming-Profildaten sind ([) &#x200B;](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/streaming-record-data.html).
 
 Schritte:
 
@@ -87,7 +87,7 @@ Schritte:
 
 Verwenden Sie für diesen Abschnitt Postman-Aufrufordner: 3: Echtzeit-Import, 3b: Echtzeit-Import für Profildaten.
 
-Detaillierte JSON-Anfragen mit Antworten für das Streaming von Erlebnisdaten sind ([) ](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
+Detaillierte JSON-Anfragen mit Antworten für das Streaming von Erlebnisdaten sind ([) &#x200B;](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
 
 Schritte:
 
