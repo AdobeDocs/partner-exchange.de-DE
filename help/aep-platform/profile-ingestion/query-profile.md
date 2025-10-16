@@ -2,16 +2,16 @@
 title: Zugreifen auf das einheitliche Profil
 description: Verwenden Sie APIs, um auf das einheitliche Profil zuzugreifen.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 8%
+source-wordcount: '683'
+ht-degree: 7%
 
 ---
 
 # Zugreifen auf das einheitliche Profil mithilfe der Profil-API
 
-Der Adobe-[!DNL Experience Platform] kann in Echtzeit auf das Kundenprofil zugreifen. Die [[!DNL Experience Platform] Echtzeit-Kundenprofil-API](https://adobe.ly/2TtDHWr) wurde für die Interaktion mit diesem Profil entwickelt. In diesem [Tutorial](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/api/getting-started.html) finden Sie Informationen zum Zugriff auf die Echtzeit-Kundenprofildaten mithilfe der Profil-API.
+Der Adobe-[!DNL Experience Platform] kann in Echtzeit auf das Kundenprofil zugreifen. Die [[!DNL Experience Platform] Echtzeit-Kundenprofil-API](https://adobe.ly/2TtDHWr) wurde für die Interaktion mit diesem Profil entwickelt. In diesem [Tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) finden Sie Informationen zum Zugriff auf die Echtzeit-Kundenprofildaten mithilfe der Profil-API.
 
 In diesem Artikel wird im Wesentlichen auf das oben verlinkte Tutorial verwiesen.
 
@@ -21,11 +21,11 @@ Verwenden Sie für diesen Abschnitt den Postman-Ordner 5: Profilsuche, 5a: Echtz
 
 ## Verwenden der API
 
-Die folgenden Abschnitte helfen Ihnen bei der Authentifizierung beim Experience Platform. Erfahren Sie mehr über den API-Pfad, Kopfzeileninformationen und mehr.
+Die folgenden Abschnitte helfen Ihnen bei der Authentifizierung bei Experience Platform. Erfahren Sie mehr über den API-Pfad, Kopfzeileninformationen und mehr.
 
 ### Authentifizieren bei [!DNL Platform]
 
-Lesen Sie [&#x200B; Authentifizierungs](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
+Lesen Sie [ Authentifizierungs](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
 
 ### API-Pfad
 
@@ -49,7 +49,7 @@ Weitere Informationen zur Kopfzeile finden Sie im [Tutorial](https://adobe.ly/2P
 
 ## Zugreifen auf Echtzeit-Kundenprofile mithilfe von Identitäten
 
-Die Profil-API ermöglicht den Zugriff auf Profile mithilfe einer Identitätsanfrage über eine GET. Die folgenden Abschnitte folgen diesem [Handbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/api/entities.html).
+Die Profil-API ermöglicht über eine GET-Anfrage den Zugriff auf Profile unter Verwendung von Identitäten. Die folgenden Abschnitte folgen diesem [Handbuch](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
 
 ### Zugreifen auf Profildaten mithilfe von Identitäten
 
@@ -139,7 +139,7 @@ Antwort:
 
 ### Zugriff auf Profile nach Liste der Identitäten
 
-Die API ermöglicht den Zugriff auf Profile mithilfe einer Identitätsliste, indem sie eine Identitätsanfrage an den Endpunkt /access/entities sendet und die POST in der Payload bereitstellt. Diese Identitäten bestehen aus einem ID-Wert (entityId) und einem Identity-Namespace (entityIdNS).
+Die API ermöglicht den Zugriff auf Profile mithilfe einer Liste von Identitäten, indem sie eine POST-Anfrage an den Endpunkt /access/entities verwendet und die Identitäten in der Payload bereitstellt. Diese Identitäten bestehen aus einem ID-Wert (entityId) und einem Identity-Namespace (entityIdNS).
 
 Anfrage:
 Mit der folgenden Anfrage werden die Namen und E-Mail-Adressen mehrerer Kunden anhand einer Liste von Identitäten abgerufen:
@@ -393,7 +393,7 @@ Bei einer erfolgreichen Antwort wird eine paginierte Liste von Zeitreihenereigni
 
 ### Paginierung für Zeitreihenereignisse für ein Profil
 
-Ergebnisse werden beim Abrufen von Zeitreihenereignissen paginiert. Wenn nachfolgende Ergebnisseiten vorhanden sind, enthält der Parameter _page.next der Antwort eine ID. Darüber hinaus stellt der Parameter _links.next.href der Antwort einen Anfrage-URI zum Abrufen der nachfolgenden Seite bereit.
+Ergebnisse werden beim Abrufen von Zeitreihenereignissen paginiert. Wenn nachfolgende Ergebnisseiten vorhanden sind, enthält der Parameter &amp;lowBar;page.next der Antwort eine ID. Darüber hinaus stellt der Parameter &amp;lowBar;links.next.href der Antwort einen Anfrage-URI zum Abrufen der nachfolgenden Seite bereit.
 
 Anfrage:
 
@@ -411,7 +411,7 @@ curl -X GET \
 
 Antwort:
 
-Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispiel zeigt eine Antwort, bei der keine nachfolgenden Ergebnisseiten vorhanden sind, wie durch die leeren Zeichenfolgenwerte von _page.next und _links.next.href angegeben.
+Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispiel zeigt eine Antwort, bei der keine nachfolgenden Ergebnisseiten vorhanden sind, wie durch die leeren Zeichenfolgenwerte von &amp;lowBar;page.next und &amp;lowBar;links.next.href angegeben.
 
 ```
 {
@@ -463,5 +463,5 @@ Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispi
 ## Referenzartikel
 
 * [Echtzeit-Kundenprofil-API](https://adobe.ly/2TtDHWr)
-* [Tutorial zum Zugriff auf Echtzeit-Kundenprofildaten über die Profil-API](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/api/getting-started.html)
+* [Tutorial zum Zugriff auf Echtzeit-Kundenprofildaten über die Profil-API](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
 * [[!DNL Experience Platform] Authentifizierungshandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)
