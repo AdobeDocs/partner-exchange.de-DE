@@ -9,4 +9,4 @@ ht-degree: 0%
 
 Dieses Repository wurde von Git Corp zu GitHub Enterprise Cloud migriert. Neuer Speicherort:
 
-<https://github.com/Adobe-Enterprise-Docs/partner-exchange.en>
+<https://github.com/Adobe-Enterprise-Docs/partner-exchange.de-DE>
