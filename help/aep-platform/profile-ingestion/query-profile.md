@@ -3,8 +3,10 @@ title: Zugreifen auf das einheitliche Profil
 description: Verwenden Sie APIs, um auf das einheitliche Profil zuzugreifen.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
 source-wordcount: 797
@@ -28,7 +30,7 @@ Die folgenden Abschnitte helfen Ihnen bei der Authentifizierung bei Experience P
 
 ### Authentifizieren bei [!DNL Platform]
 
-Lesen Sie [ Authentifizierungs](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
+Lesen Sie [&#x200B; Authentifizierungs](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
 
 ### API-Pfad
 
@@ -396,7 +398,7 @@ Bei einer erfolgreichen Antwort wird eine paginierte Liste von Zeitreihenereigni
 
 ### Paginierung für Zeitreihenereignisse für ein Profil
 
-Ergebnisse werden beim Abrufen von Zeitreihenereignissen paginiert. Wenn nachfolgende Ergebnisseiten vorhanden sind, enthält der Parameter &amp;lowbar;page.next der Antwort eine ID. Darüber hinaus stellt der Parameter &amp;lowbar;links.next.href der Antwort einen Anfrage-URI zum Abrufen der nachfolgenden Seite bereit.
+Ergebnisse werden beim Abrufen von Zeitreihenereignissen paginiert. Wenn nachfolgende Ergebnisseiten vorhanden sind, enthält der Parameter &lowbar;page.next der Antwort eine ID. Darüber hinaus stellt der Parameter &lowbar;links.next.href der Antwort einen Anfrage-URI zum Abrufen der nachfolgenden Seite bereit.
 
 Anfrage:
 
@@ -414,7 +416,7 @@ curl -X GET \
 
 Antwort:
 
-Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispiel zeigt eine Antwort, bei der keine nachfolgenden Ergebnisseiten vorhanden sind, wie durch die leeren Zeichenfolgenwerte von &amp;lowbar;page.next und &amp;lowbar;links.next.href angegeben.
+Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispiel zeigt eine Antwort, bei der keine nachfolgenden Ergebnisseiten vorhanden sind, wie durch die leeren Zeichenfolgenwerte von &lowbar;page.next und &lowbar;links.next.href angegeben.
 
 ```
 {

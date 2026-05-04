@@ -3,8 +3,11 @@ title: Handbuch zur Integration von [!DNL Platform]-Profilaufnahme und -zugriff 
 description: Erfahren Sie mehr über die Integration  [!DNL Experience Platform]  Profilaufnahme und -zugriff.
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
 TQID: https://experienceleague.adobe.com/whnqurJyM4QXl5ikRvez7hpKWRDuU4onzROsUk-WeSI
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
 source-wordcount: 492
@@ -16,7 +19,7 @@ ht-degree: 3%
 
 Partner sollten dieses Integrationshandbuch verwenden, um sie beim Aufbau der Eingangs- und Ausgangsfunktionen mit der Adobe [!DNL Experience Platform] (AEP) zu unterstützen. Es gibt APIs für die Batch-Aufnahme, Streaming-Aufnahme und einheitlichen Profilzugriff (Ausgang).
 
-Um Sie bei der Entwicklung zu unterstützen, ](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) das Adobe Exchange-Team eine [Postman-Sammlung erstellt. Diese Postman-Sammlung wird im gesamten Integrationshandbuch referenziert.
+Um Sie bei der Entwicklung zu unterstützen, [&#128279;](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) das Adobe Exchange-Team eine Postman-Sammlung erstellt. Diese Postman-Sammlung wird im gesamten Integrationshandbuch referenziert.
 
 Weitere Informationen zur Installation und Verwendung der Postman-Sammlung finden Sie auf der GitHub-Seite [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md). Es gibt auch Beispieldatensätze mit [Treueprogramm](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json)- und [Profil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json)Daten.
 
