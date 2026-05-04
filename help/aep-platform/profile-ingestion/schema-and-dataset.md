@@ -1,11 +1,16 @@
 ---
 title: Erstellen von AEP-Schemata und -Datensätzen
-description: Erstellen von Schemata und Datensätzen im Experience Platform.
+description: Erstellen Sie Schemata und Datensätze in Experience Platform.
 exl-id: a2773551-20a3-4a5b-ab53-60fa67e38ec0
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/uQtIQwCgsjOd5pR5w4LF634-Whvjl0jmF5WywVWlkZQ
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 13%
+source-wordcount: 617
+ht-degree: 19%
 
 ---
 
@@ -15,7 +20,7 @@ Die [Postman-](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-int
 
 ## Schemata
 
-Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat repräsentiert und überprüft. Schemata bieten eine übergeordnete abstrakte Definition eines realen Objekts (z. B. einer Person) und bestimmen, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum). Schemata können in der Benutzeroberfläche oder mithilfe der [!DNL Experience Platform]-APIs erstellt werden.
+Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat darstellt und überprüft. Auf hoher Ebene bieten Schemata eine abstrakte Definition eines realen Objekts (z. B. einer Person) und legen dar, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum usw.). Schemata können in der Benutzeroberfläche oder mithilfe der [!DNL Experience Platform]-APIs erstellt werden.
 
 Weitere Informationen finden [&#x200B; in &#x200B;](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_composition/schema_composition.md) Dokumentation .
 
@@ -23,7 +28,7 @@ Weitere Informationen finden [&#x200B; in &#x200B;](https://www.adobe.io/apis/ex
 
 Partner können ein Schema mithilfe der Benutzeroberfläche erstellen, indem sie diesem [&#x200B; folgen](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/tutorials/create-schema-ui.html). In diesem Beispiel wird das Profilschema des Treueprogramms verwendet. Während das Beispiel ein Profilschema ist, können ereignisbasierte Schemata mit einem ähnlichen Prozess verwendet werden.
 
-Um die APIs verwenden zu können, müssen Partner über eine vorhandene Adobe I/O-Integration mit aktivierten [!DNL Experience Platform] verfügen. Weitere Informationen finden Sie in diesem Handbuch [Erstellen einer I/O-Integration](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/home.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+Um die APIs verwenden zu können, müssen Partner über eine bestehende Adobe I/O-Integration mit aktivierten [!DNL Experience Platform] verfügen. Weitere Informationen finden Sie in diesem Handbuch [Erstellen einer I/O-Integration](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/home.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
 Unter [diesem Link](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/tutorials/create-schema-api.html) erfahren Sie, wie Sie Schemas mithilfe der API erstellen.
 
@@ -62,6 +67,6 @@ Um einen Datensatz über Postman zu erstellen, verwenden Sie die Ordner 2: Daten
 ## Best Practices für Schemas und Datensätze für Partner
 
 * Partnerdaten sollten ein separates Profilschema verwenden, anstatt ein Mix-in für das vorhandene Profilschema und Erlebnisschema eines Kunden zu erstellen.
-* Partner sollten nach Möglichkeit Adobe-Klassen und Mix-Ins verwenden.
+* Partner sollten nach Möglichkeit Adobe-Klassen und -Mixins verwenden.
 * Partner sollten ihre Daten mit einem separaten Datensatz hochladen, anstatt zu versuchen, ihre Daten in einem vorhandenen Datensatz zu kombinieren.
 * Partner können ihre Schemata derzeit nicht in die globale Registrierung hochladen.

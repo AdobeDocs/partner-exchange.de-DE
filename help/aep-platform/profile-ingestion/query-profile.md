@@ -2,10 +2,15 @@
 title: Zugreifen auf das einheitliche Profil
 description: Verwenden Sie APIs, um auf das einheitliche Profil zuzugreifen.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 7%
+source-wordcount: 797
+ht-degree: 8%
 
 ---
 
@@ -393,7 +398,7 @@ Bei einer erfolgreichen Antwort wird eine paginierte Liste von Zeitreihenereigni
 
 ### Paginierung für Zeitreihenereignisse für ein Profil
 
-Ergebnisse werden beim Abrufen von Zeitreihenereignissen paginiert. Wenn nachfolgende Ergebnisseiten vorhanden sind, enthält der Parameter &lowBar;page.next der Antwort eine ID. Darüber hinaus stellt der Parameter &lowBar;links.next.href der Antwort einen Anfrage-URI zum Abrufen der nachfolgenden Seite bereit.
+Ergebnisse werden beim Abrufen von Zeitreihenereignissen paginiert. Wenn nachfolgende Ergebnisseiten vorhanden sind, enthält der Parameter &lowbar;page.next der Antwort eine ID. Darüber hinaus stellt der Parameter &lowbar;links.next.href der Antwort einen Anfrage-URI zum Abrufen der nachfolgenden Seite bereit.
 
 Anfrage:
 
@@ -411,7 +416,7 @@ curl -X GET \
 
 Antwort:
 
-Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispiel zeigt eine Antwort, bei der keine nachfolgenden Ergebnisseiten vorhanden sind, wie durch die leeren Zeichenfolgenwerte von &lowBar;page.next und &lowBar;links.next.href angegeben.
+Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispiel zeigt eine Antwort, bei der keine nachfolgenden Ergebnisseiten vorhanden sind, wie durch die leeren Zeichenfolgenwerte von &lowbar;page.next und &lowbar;links.next.href angegeben.
 
 ```
 {
