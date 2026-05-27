@@ -3,8 +3,7 @@ title: Echtzeit-Import
 description: Erfahren Sie, wie Sie Daten in Echtzeit in AEP importieren.
 exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
 TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
 source-wordcount: 642
@@ -33,7 +32,7 @@ Die [Postman-](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-int
 
 Um zu AEP zu streamen, müssen Sie zunächst eine Streaming-Verbindung erstellen. Streaming-Verbindungen enthalten Attribute wie die Quelle von Streaming-Daten und ob Sie Datensätze senden, die zu den [!DNL Experience Data Model] (XDM)-Schemata gehören oder nicht. Nachdem Sie eine Streaming-Verbindung erstellt haben, erhalten Sie eine eindeutige URL, mit der Sie Daten in AEP streamen können.
 
-Unter [hier](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/create-streaming-connection.html) finden Sie Anweisungen zum Erstellen einer Streaming-Verbindung über eine API oder [hier](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) Anweisungen zum Erstellen einer Streaming-Verbindung über die Benutzeroberfläche.
+Unter [hier](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html) finden Sie Anweisungen zum Erstellen einer Streaming-Verbindung über eine API oder [hier](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) Anweisungen zum Erstellen einer Streaming-Verbindung über die Benutzeroberfläche.
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -76,7 +75,7 @@ Denken Sie daran, die in der obigen Antwort angegebene ID für zukünftige Strea
 
 Verwenden Sie für diesen Abschnitt Postman-Aufrufordner: 3: Echtzeit-Import, 3a: Echtzeit-Import für Profildaten.
 
-Detaillierte JSON-Anfragen mit Antworten für Streaming-Profildaten sind ([) &#x200B;](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/streaming-record-data.html).
+Detaillierte JSON-Anfragen mit Antworten für Streaming-Profildaten sind ([) ](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html).
 
 Schritte:
 
@@ -90,7 +89,7 @@ Schritte:
 
 Verwenden Sie für diesen Abschnitt Postman-Aufrufordner: 3: Echtzeit-Import, 3b: Echtzeit-Import für Profildaten.
 
-Detaillierte JSON-Anfragen mit Antworten für das Streaming von Erlebnisdaten sind ([) &#x200B;](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
+Detaillierte JSON-Anfragen mit Antworten für das Streaming von Erlebnisdaten sind ([) ](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
 
 Schritte:
 
