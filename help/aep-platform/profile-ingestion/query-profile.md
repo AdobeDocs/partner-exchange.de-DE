@@ -54,11 +54,11 @@ Weitere Informationen zur Kopfzeile finden Sie im [Tutorial](https://adobe.ly/2P
 
 ## Zugreifen auf Echtzeit-Kundenprofile mithilfe von Identitäten
 
-Die Profil-API ermöglicht über eine GET-Anfrage den Zugriff auf Profile unter Verwendung von Identitäten. Die folgenden Abschnitte folgen diesem [Handbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/api/entities.html).
+Die Profil-API ermöglicht den Zugriff auf Profile mithilfe einer Identität über eine GET-Anfrage. Die folgenden Abschnitte folgen diesem [Handbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/api/entities.html).
 
 ### Zugreifen auf Profildaten mithilfe von Identitäten
 
-Die API ermöglicht den Zugriff auf Profilinformationen mithilfe von Identitäten. Dies geschieht, indem eine GET-Anfrage an /access/entities gesendet wird, wobei die Entitäts-ID einer der Parameter und der Entitäts-ID-Namespace ist. HINWEIS: Beachten Sie, dass jede Anfrage, die 50 Datensätze zurückgibt, nur einen 422-HTTP-Status und eine Nachricht mit dem Hinweis „zu viele verwandte Identitäten“ liefert und die Suche mit weiteren Parametern eingegrenzt werden muss.
+Die API ermöglicht den Zugriff auf Profilinformationen mithilfe von Identitäten. Dies geschieht, indem Sie eine GET-Anfrage an /access/entities mit der Entitäts-ID als einem der Parameter und dem Entitäts-ID-Namespace stellen. HINWEIS: Beachten Sie, dass jede Anfrage, die 50 Datensätze zurückgibt, nur einen 422-HTTP-Status und eine Nachricht mit dem Hinweis „zu viele verwandte Identitäten“ liefert und die Suche mit weiteren Parametern eingegrenzt werden muss.
 
 Anfrage:
 
