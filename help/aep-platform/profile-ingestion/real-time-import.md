@@ -33,7 +33,7 @@ Die [Postman-](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-int
 
 Um zu AEP zu streamen, müssen Sie zunächst eine Streaming-Verbindung erstellen. Streaming-Verbindungen enthalten Attribute wie die Quelle von Streaming-Daten und ob Sie Datensätze senden, die zu den [!DNL Experience Data Model] (XDM)-Schemata gehören oder nicht. Nachdem Sie eine Streaming-Verbindung erstellt haben, erhalten Sie eine eindeutige URL, mit der Sie Daten in AEP streamen können.
 
-Unter [hier](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html) finden Sie Anweisungen zum Erstellen einer Streaming-Verbindung über eine API oder [hier](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) Anweisungen zum Erstellen einer Streaming-Verbindung über die Benutzeroberfläche.
+Unter [hier](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/create-streaming-connection.html) finden Sie Anweisungen zum Erstellen einer Streaming-Verbindung über eine API oder [hier](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) Anweisungen zum Erstellen einer Streaming-Verbindung über die Benutzeroberfläche.
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -76,7 +76,7 @@ Denken Sie daran, die in der obigen Antwort angegebene ID für zukünftige Strea
 
 Verwenden Sie für diesen Abschnitt Postman-Aufrufordner: 3: Echtzeit-Import, 3a: Echtzeit-Import für Profildaten.
 
-Detaillierte JSON-Anfragen mit Antworten für Streaming-Profildaten sind ([) &#x200B;](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html).
+Detaillierte JSON-Anfragen mit Antworten für Streaming-Profildaten sind ([) &#x200B;](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/streaming-record-data.html).
 
 Schritte:
 
@@ -90,7 +90,7 @@ Schritte:
 
 Verwenden Sie für diesen Abschnitt Postman-Aufrufordner: 3: Echtzeit-Import, 3b: Echtzeit-Import für Profildaten.
 
-Detaillierte JSON-Anfragen mit Antworten für das Streaming von Erlebnisdaten sind ([) &#x200B;](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
+Detaillierte JSON-Anfragen mit Antworten für das Streaming von Erlebnisdaten sind ([) &#x200B;](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
 
 Schritte:
 
