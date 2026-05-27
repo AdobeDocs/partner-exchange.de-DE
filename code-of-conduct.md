@@ -1,8 +1,8 @@
 ---
 source-git-commit: 8cddda57988bb72e97b0c4cbd6d741dc5426765c
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 66%
+source-wordcount: '438'
+ht-degree: 44%
 
 ---
 # Adobe-Verhaltenskodex
@@ -14,7 +14,8 @@ Größe, Behinderung, ethnische Zugehörigkeit, Geschlechtsidentität und Ausdru
 
 ## Unsere Standards
 
-Beispiele für Verhaltensweisen, die zu einer freundlichen Umgebung betragen:
+Beispiele für Verhaltensweisen, die zu einer positiven Umgebung beitragen
+zählen:
 
 * Freundliche und inklusive Sprache
 * Respektvoller Umgang mit anderen Sichtweisen und Erfahrungen
@@ -24,11 +25,14 @@ Beispiele für Verhaltensweisen, die zu einer freundlichen Umgebung betragen:
 
 Beispiele für inakzeptables Verhalten:
 
-* Verwenden sexualisierter Sprache oder Symbolik sowie unerwünschte sexuelle Annäherung oder Avancen
+* Verwendung sexualisierter Sprache oder Symbolik und unerwünschte sexuelle Annäherung oder
+Vorschüsse
 * Veräppeln, Anbringen beleidigender/abfälliger Kommentare sowie persönliche oder politische Angriffe
 * Öffentliche oder private Belästigung
-* Veröffentlichung von privaten Informationen anderer Personen (z. B. physische oder elektronische Adresse) ohne deren ausdrückliche Zustimmung
-* Andere Verhaltensweisen, die in einer professionellen Umgebung als unangemessen betrachtet werden können
+* Veröffentlichen von privaten Informationen anderer Personen, z. B. physische oder elektronische
+Adresse, ohne ausdrückliche Genehmigung
+* Andere Verhaltensweisen, die in einem Fall vernünftigerweise als unangemessen betrachtet werden könnten
+professioneller Rahmen
 
 ## Unsere Zuständigkeiten
 
@@ -39,7 +43,8 @@ dauerhaft alle Mitwirkenden für andere Verhaltensweisen, die sie als unangemess
 
 ## Anwendungsbereich
 
-Dieser Verhaltenskodex findet innerhalb von Projektbereichen und in öffentlichen Bereichen Anwendung, wenn Einzelpersonen das Projekt oder die Community repräsentieren. Beispiele für die Repräsentation eines Projekts oder der Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse, die Veröffentlichung über ein offizielles Social-Media-Konto oder das Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung. Die Repräsentation eines Projekts kann durch die Projektverantwortlichen genauer definiert und erläutert werden.
+Dieser Verhaltenskodex findet innerhalb von Projektbereichen und in öffentlichen Bereichen Anwendung, wenn Einzelpersonen das Projekt oder die Community repräsentieren. Beispiele für die Darstellung eines Projekts oder einer Community sind die Verwendung einer offiziellen Projekt-E-Mail
+Anschrift, Posten über ein offizielles Social-Media-Konto oder Funktion als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung. Die Repräsentation eines Projekts kann durch die Projektverantwortlichen genauer definiert und erläutert werden.
 
 ## Durchsetzung
 
@@ -49,7 +54,8 @@ Gegen Projektverantwortliche, die den Verhaltenskodex nicht nach Treu und Glaube
 
 ## Attribution
 
-Dieser Verhaltenskodex wurde basierend auf dem [Contributor Covenant][1], Version 1.4, aufgestellt, siehe [https://www.contributor-covenant.org/de/version/1/4/code-of-conduct][2]
+Dieser Verhaltenskodex wurde basierend auf dem [Contributor Covenant][1], Version 1.4,
+Verfügbar unter [https://contributor-covenant.org/version/1/4][2]
 
 [1]: https://contributor-covenant.org
 [2]: https://www.contributor-covenant.org/de/version/1/4/code-of-conduct/
