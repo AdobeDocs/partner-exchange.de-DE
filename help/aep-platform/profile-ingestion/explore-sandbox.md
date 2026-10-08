@@ -5,22 +5,27 @@ exl-id: 62c21615-4b03-4900-a1ad-8f809c836491
 TQID: https://experienceleague.adobe.com/A5sl-xNZBPjIKn6HO1iwM78IaQWQs4yBgbw9wwpMrGw
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Customer profiles
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 3%
-
 ---
-
 # Aufrufen und Erkunden der AEP-Sandbox
 
 Dieser Artikel behandelt Folgendes:
@@ -40,7 +45,7 @@ Exchange-Partner erhalten Zugriff auf verschiedene Adobe [!DNL Experience Cloud]
 * Der Zugriff auf AEP erfolgt NICHT über die Adobe [!DNL Experience Cloud] Sandbox-Hauptorg der Partner.
 * Der Zugriff auf AEP erfolgt über eine freigegebene Adobe Exchange-Organisation.
 * Viele andere Adobe Exchange-Partnerunternehmen greifen über dieselbe Organisation auf AEP zu
-   * Über die AEP-Sandbox-Funktion können Daten und Aktivitäten innerhalb dieser freigegebenen Organisation von den anderen Partnern nicht angezeigt oder geändert werden. Jeder Partner hat Zugriff auf eine andere Sandbox innerhalb der freigegebenen Organisation.
+  * Über die AEP-Sandbox-Funktion können Daten und Aktivitäten innerhalb dieser freigegebenen Organisation von den anderen Partnern nicht angezeigt oder geändert werden. Jeder Partner hat Zugriff auf eine andere Sandbox innerhalb der freigegebenen Organisation.
 * Die Administratorrechte innerhalb dieser freigegebenen Organisation sind sehr begrenzt.
 * Nachdem Partnern Zugriff auf eine Sandbox in AEP gewährt wurde, sehen sie zwei Organisationen im Organisations-Umschalter oben rechts in der Benutzeroberfläche, während sie sich auf der Admin Console- oder Experience Cloud-Hauptseite befinden. Bei der Anmeldung bei AEP sollte jedoch nur die freigegebene Organisation angezeigt werden.
 
@@ -73,15 +78,15 @@ Senden Sie [Support-Anfrage](https://adobeexchangeec.zendesk.com/hc/de-de/reques
 
 ## Navigieren in der AEP-Benutzeroberfläche
 
-AEP-Benutzeroberfläche ansehen [Einführungsvideo](https://docs.adobe.com/content/help/de-DE/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+AEP-Benutzeroberfläche ansehen [Einführungsvideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
 
 Es gibt 12 primäre Bereiche in der AEP-Benutzeroberfläche, die über das linke Bedienfeld navigiert werden können. Die wichtigsten Abschnitte für diesen Integrationstyp sind jedoch Schemata, Datensätze und Profile.
 
 * Startseite - der Startbildschirm
 
-   * Schreibt einige erste Aktivitäten vor
-   * Enthält einige Links zu Lerninhalten
-   * Ermöglicht eine Dashboard-Ansicht für einige der wichtigsten AEP-Objekte wie Schemata, Datensätze und Profile
+  * Schreibt einige erste Aktivitäten vor
+  * Enthält einige Links zu Lerninhalten
+  * Ermöglicht eine Dashboard-Ansicht für einige der wichtigsten AEP-Objekte wie Schemata, Datensätze und Profile
 
 * Workflows - Starten in allgemeine Workflows zum Übertragen von Daten in AEP
 * Verbindungen/Quellen - Verwalten von Datenquellen, die in AEP eingehen
