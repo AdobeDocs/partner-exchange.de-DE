@@ -30,7 +30,7 @@ Die folgenden Abschnitte helfen Ihnen bei der Authentifizierung bei Experience P
 
 ### Authentifizieren bei [!DNL Platform]
 
-Lesen Sie [ Authentifizierungs](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
+Lesen Sie [&#x200B; Authentifizierungs](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html)Tutorial , bevor Sie einen der folgenden Aufrufe ausführen.
 
 ### API-Pfad
 
@@ -398,7 +398,7 @@ Bei einer erfolgreichen Antwort wird eine paginierte Liste von Zeitreihenereigni
 
 ### Paginierung für Zeitreihenereignisse für ein Profil
 
-Ergebnisse werden beim Abrufen von Zeitreihenereignissen paginiert. Wenn nachfolgende Ergebnisseiten vorhanden sind, enthält der Parameter &amp;lowbar;page.next der Antwort eine ID. Darüber hinaus stellt der Parameter &amp;lowbar;links.next.href der Antwort einen Anfrage-URI zum Abrufen der nachfolgenden Seite bereit.
+Ergebnisse werden beim Abrufen von Zeitreihenereignissen paginiert. Wenn nachfolgende Ergebnisseiten vorhanden sind, enthält der Parameter &lowbar;page.next der Antwort eine ID. Darüber hinaus stellt der Parameter &lowbar;links.next.href der Antwort einen Anfrage-URI zum Abrufen der nachfolgenden Seite bereit.
 
 Anfrage:
 
@@ -416,7 +416,7 @@ curl -X GET \
 
 Antwort:
 
-Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispiel zeigt eine Antwort, bei der keine nachfolgenden Ergebnisseiten vorhanden sind, wie durch die leeren Zeichenfolgenwerte von &amp;lowbar;page.next und &amp;lowbar;links.next.href angegeben.
+Eine erfolgreiche Antwort gibt die nächste Ergebnisseite zurück. Dieses Beispiel zeigt eine Antwort, bei der keine nachfolgenden Ergebnisseiten vorhanden sind, wie durch die leeren Zeichenfolgenwerte von &lowbar;page.next und &lowbar;links.next.href angegeben.
 
 ```
 {
